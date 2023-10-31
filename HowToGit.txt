@@ -1,0 +1,23 @@
+Git in bereitsvorhandenes Github Repo pushen
+
+1. GitBash: cd gewünschterordnerpafd (oder in ordner Rechtsklick und "open GitBash here")
+2. GitBash:	git init
+3. GitBash: git remote add origin https://gewünschterRepoPfad (kann von Github kopiert werden)
+4. GitBash: git branch -M main
+5. GitBash:	git status
+
+Gitignore für eclipse mit Inhalt: .metadata*
+(falls vergessen: $ git rm -r --cached .metadata*)
+
+6. GitBash:	git add --all
+7. GitBash: git commit
+8. GitBash: git push --set-upstream origin main
+
+Bei neu hinzugefügten Dateien:
+
+- GitBash: git add --all
+- GitBash: git commit
+- GitBash: git push
+
+Pfad für Eclipse Prog 2:
+cd /c/Users/Lena\ Retter/OneDrive\ -\ area-7.it/Studium/sem2/Prog2/
